@@ -1,0 +1,24 @@
+{
+  "services": [
+    {
+      "name": "pocket-id",
+      "image": "stonith404/pocket-id:v1.0.0",
+      "environment": {
+        "TZ": "${TZ}",
+        "PUBLIC_APP_URL": "${APP_PROTOCOL:-https}://${APP_DOMAIN}",
+        "TRUST_PROXY": "true"
+      },
+      "internalPort": 80,
+      "volumes": [
+        {
+          "hostPath": "${APP_DATA_DIR}/data",
+          "containerPath": "/app/backend/data",
+          "readOnly": false,
+          "shared": false,
+          "private": false
+        }
+      ],
+      "isMain": true
+    }
+  ]
+}
