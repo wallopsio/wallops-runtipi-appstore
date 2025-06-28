@@ -1,17 +1,22 @@
 {
-    "name": "Pocket ID",
-    "id": "pocket-id",
-    "available": true,
-    "short_desc": "A simple OIDC provider.",
-    "author": "Elias Schneider",
-    "port": 3001,
-    "categories": ["security"],
-    "description": "Pocket ID is a simple OIDC provider that allows users to authenticate with their passkeys to your services.",
-    "tipi_version": 1,
-    "version": "v1.0.0",
-    "source": "https://github.com/pocket-id/pocket-id",
-    "exposable": true,
-    "supported_architectures": ["arm64", "amd64"],
-    "created_at": 1748301467380,
-    "updated_at": 1748301467380
-  }
+  "name": "Pocket ID",
+  "id": "pocket-id",
+  "available": true,
+  "short_desc": "A simple OIDC provider.",
+  "author": "Elias Schneider",
+  "port": 3001,
+  "categories": [
+    "security"
+  ],
+  "description": "Pocket ID is a simple OIDC provider that allows users to authenticate with their passkeys to your services.",
+  "tipi_version": 2,
+  "version": "v1.5.0",
+  "source": "https://github.com/pocket-id/pocket-id",
+  "exposable": true,
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1748301467380,
+  "updated_at": 1751080394701
+}
