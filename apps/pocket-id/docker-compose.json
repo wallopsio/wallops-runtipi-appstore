@@ -2,7 +2,7 @@
   "services": [
     {
       "name": "pocket-id",
-      "image": "ghcr.io/pocket-id/pocket-id:v1.6.2",
+      "image": "ghcr.io/pocket-id/pocket-id:v1.6.3",
       "environment": {
         "TZ": "${TZ}",
         "APP_URL": "${APP_PROTOCOL:-https}://${APP_DOMAIN}",
