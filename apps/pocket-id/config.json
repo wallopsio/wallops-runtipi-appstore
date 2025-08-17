@@ -9,8 +9,8 @@
     "security"
   ],
   "description": "Pocket ID is a simple OIDC provider that allows users to authenticate with their passkeys to your services.",
-  "tipi_version": 5,
-  "version": "v1.6.3",
+  "tipi_version": 6,
+  "version": "v1.7.0",
   "source": "https://github.com/pocket-id/pocket-id",
   "exposable": true,
   "supported_architectures": [
@@ -18,5 +18,5 @@
     "amd64"
   ],
   "created_at": 1748301467380,
-  "updated_at": 1753072538000
+  "updated_at": 1754883667374
 }
