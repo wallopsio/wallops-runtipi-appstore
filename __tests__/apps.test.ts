@@ -1,6 +1,6 @@
 import { expect, test, describe } from "bun:test";
 import { appInfoSchema, dynamicComposeSchema } from '@runtipi/common/schemas'
-import { fromError } from 'zod-validation-error';
+import { fromError } from 'zod-validation-error/v4';
 import fs from 'node:fs'
 import path from 'node:path'
 
