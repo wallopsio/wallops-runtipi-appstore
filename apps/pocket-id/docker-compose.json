@@ -3,11 +3,20 @@
     {
       "name": "pocket-id",
       "image": "ghcr.io/pocket-id/pocket-id:v2.14.0",
-      "environment": {
-        "TZ": "${TZ}",
-        "APP_URL": "${APP_PROTOCOL:-https}://${APP_DOMAIN}",
-        "TRUST_PROXY": "true"
-      },
+      "environment": [
+        {
+          "key": "TZ",
+          "value": "${TZ}"
+        },
+        {
+          "key": "APP_URL",
+          "value": "${APP_PROTOCOL:-https}://${APP_DOMAIN}"
+        },
+        {
+          "key": "TRUST_PROXY",
+          "value": "true"
+        }
+      ],
       "internalPort": 1411,
       "volumes": [
         {
@@ -20,5 +29,7 @@
       ],
       "isMain": true
     }
-  ]
+  ],
+  "schemaVersion": 2,
+  "$schema": "https://schemas.runtipi.io/v2/dynamic-compose.json"
 }

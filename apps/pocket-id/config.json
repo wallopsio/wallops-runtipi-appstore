@@ -18,5 +18,7 @@
     "amd64"
   ],
   "created_at": 1748301467380,
-  "updated_at": 1787108026367
+  "updated_at": 1787108026367,
+  "dynamic_config": true,
+  "form_fields": []
 }
